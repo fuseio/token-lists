@@ -218,6 +218,11 @@
               "is_verified_by_me": true
             }
           ]
+        },
+        "isMultiBridge": {
+          "type": "boolean",
+          "description": "A boolean which states whether the token supports multi bridge functionality",
+          "default": false
         }
       },
       "required": [
