@@ -224,7 +224,7 @@
           "description": "A boolean which states whether the token supports multi bridge functionality",
           "default": false
         },
-        "deprecated": {
+        "isDeprecated": {
           "type": "boolean",
           "description": "A boolean which states whether the token is deprecated",
           "default": false

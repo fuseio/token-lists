@@ -32,7 +32,7 @@
             "tags": [
               "compound"
             ],
-            "deprecated": true
+            "isDeprecated": true
           }
     ],
     "version": {

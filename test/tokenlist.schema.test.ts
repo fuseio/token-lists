@@ -95,9 +95,9 @@ describe('schema', () => {
     checkSchema(isMultiBridge, true);
   });
 
-  it('works for deprecated tokens', () => {
+  it('works for isDeprecated tokens', () => {
     checkSchema(deprecated, true);
-  })
+  });
 
   it('allows up to 10k tokens', () => {
     const exampleListWith10kTokens = {
