@@ -102,7 +102,7 @@ describe('schema', () => {
 
   it('works for long symbol name and special chars ()', () => {
     checkSchema(longSymbol, true);
-  })
+  });
 
   it('allows up to 10k tokens', () => {
     const exampleListWith10kTokens = {
