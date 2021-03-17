@@ -410,4 +410,6 @@ exports[`schema works for isDeprecated tokens 1`] = `null`;
 
 exports[`schema works for isMultiBridge 1`] = `null`;
 
+exports[`schema works for long symbol name and special chars () 1`] = `null`;
+
 exports[`schema works for special characters schema 1`] = `null`;

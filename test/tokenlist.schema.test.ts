@@ -19,6 +19,7 @@ import extensionsValid from './schema/extensions-valid.tokenlist.json';
 import extensionsInvalid from './schema/extensions-invalid.tokenlist.json';
 import isMultiBridge from './schema/isMultiBridge.tokenlist.json';
 import deprecated from './schema/deprecated.tokenlist.json';
+import longSymbol from './schema/longSymbol.tokenlist.json';
 
 const ajv = new Ajv({ allErrors: true, format: 'full' });
 const validator = ajv.compile(schema);
@@ -97,6 +98,10 @@ describe('schema', () => {
 
   it('works for isDeprecated tokens', () => {
     checkSchema(deprecated, true);
+  });
+
+  it('works for long symbol name and special chars ()', () => {
+    checkSchema(longSymbol, true);
   });
 
   it('allows up to 10k tokens', () => {
