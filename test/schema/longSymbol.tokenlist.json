@@ -32,7 +32,7 @@
       {
         "chainId": 1,
         "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
-        "symbol": "cUSDC (Deprecated)",
+        "symbol": "cUSDC - Deprecated (Click to Migrate)",
         "name": "Compound USD Coin",
         "decimals": 8,
         "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
