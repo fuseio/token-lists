@@ -177,7 +177,7 @@
           "description": "The symbol for the token; must be alphanumeric",
           "pattern": "^[a-zA-Z0-9+\\-%/\\$\\(\\)\\s]+$",
           "minLength": 1,
-          "maxLength": 30,
+          "maxLength": 60,
           "examples": [
             "USDC"
           ]
